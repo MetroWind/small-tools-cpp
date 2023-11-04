@@ -1,0 +1,7 @@
+= NSShot
+
+A naively simple screenshot beautifier.
+
+== Dependencies
+
+- Imagemagick
