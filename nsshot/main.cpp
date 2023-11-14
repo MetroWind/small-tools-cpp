@@ -35,7 +35,7 @@ void fancify(const Options& options)
     alpha.erase();
     alpha.fillColor("white");
     alpha.draw(DrawableRoundRectangle(
-                   0, 0, width, height,
+                   0, 0, width - 1, height - 1,
                    options.corner_radius, options.corner_radius));
 
     shot.alpha(false);
